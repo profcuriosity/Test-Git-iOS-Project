@@ -21,6 +21,7 @@
 		FF75E9CA18FA25EE0046514E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF75E9AC18FA25ED0046514E /* UIKit.framework */; };
 		FF75E9D218FA25EE0046514E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF75E9D018FA25EE0046514E /* InfoPlist.strings */; };
 		FF75E9D418FA25EE0046514E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF75E9D318FA25EE0046514E /* Git_TestTests.m */; };
+		FF9F105918FA784E0048D2EA /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9F105818FA784E0048D2EA /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FF75E9CF18FA25EE0046514E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FF75E9D118FA25EE0046514E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF75E9D318FA25EE0046514E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FF9F105718FA784E0048D2EA /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		FF9F105818FA784E0048D2EA /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		FF75E99C18FA25ED0046514E = {
 			isa = PBXGroup;
 			children = (
+				FF9F105718FA784E0048D2EA /* CCTest.h */,
+				FF9F105818FA784E0048D2EA /* CCTest.m */,
 				FF75E9AE18FA25ED0046514E /* Git Test */,
 				FF75E9CD18FA25EE0046514E /* Git TestTests */,
 				FF75E9A718FA25ED0046514E /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF75E9B918FA25ED0046514E /* CCAppDelegate.m in Sources */,
+				FF9F105918FA784E0048D2EA /* CCTest.m in Sources */,
 				FF75E9B518FA25ED0046514E /* main.m in Sources */,
 				FF75E9BF18FA25ED0046514E /* CCViewController.m in Sources */,
 			);
