@@ -457,6 +457,7 @@
 				FF75E9D918FA25EE0046514E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF75E9DA18FA25EE0046514E /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				FF75E9DC18FA25EE0046514E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
